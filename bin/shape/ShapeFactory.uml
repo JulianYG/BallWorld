@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_SABvcGNbEeWnVf-kUifj5A" name="ShapeFactory">
+    <eAnnotations xmi:id="_SJsBwGNbEeWnVf-kUifj5A" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_SJsBwWNbEeWnVf-kUifj5A" source="codegen">
+        <details xmi:id="_SJsBwmNbEeWnVf-kUifj5A" key="codegenDirectory" value="/HW04/src"/>
+        <details xmi:id="_SSYqwGNbEeWnVf-kUifj5A" key="AssociatedSourceCode" value="/HW04/src/shape/EllipseShapeFactory.java;384231096/1;/HW04/src/shape/Fish1PolygonFactory.java;2394602747/1;/HW04/src/shape/IShapeFactory.java;3889779224/1;/HW04/src/shape/PolygonFactory.java;1186189782/1;/HW04/src/shape/RectangleShapeFactory.java;3551267197/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_SO9jUGNbEeWnVf-kUifj5A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_SO-KYGNbEeWnVf-kUifj5A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_SO-KYWNbEeWnVf-kUifj5A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_SO-KYmNbEeWnVf-kUifj5A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_SO-KY2NbEeWnVf-kUifj5A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_SO-KZGNbEeWnVf-kUifj5A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_SO-KZWNbEeWnVf-kUifj5A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_SO-KZmNbEeWnVf-kUifj5A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_SO-KZ2NbEeWnVf-kUifj5A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_SO-xcGNbEeWnVf-kUifj5A" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_SO-xcWNbEeWnVf-kUifj5A" name="awt">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_SPr8EGNbEeWnVf-kUifj5A" name="Shape"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_SO-xcmNbEeWnVf-kUifj5A" name="geom">
+          <packagedElement xmi:type="uml:Class" xmi:id="_SPsjIWNbEeWnVf-kUifj5A" name="Ellipse2D"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_SPu_YWNbEeWnVf-kUifj5A" name="AffineTransform"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_SPypwGNbEeWnVf-kUifj5A" name="Rectangle2D"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SPuYUGNbEeWnVf-kUifj5A" name="Point"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_SPw0kGNbEeWnVf-kUifj5A" name="Polygon"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_SO_YgGNbEeWnVf-kUifj5A" name="shape">
+      <packagedElement xmi:type="uml:Class" xmi:id="_SPJJgGNbEeWnVf-kUifj5A" name="EllipseShapeFactory">
+        <ownedComment xmi:id="_SP9o4GNbEeWnVf-kUifj5A">
+          <body>@author johnking
+ *	A factory that produces an Ellipse!</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_SP4wYGNbEeWnVf-kUifj5A" name="Singleton" isStatic="true" type="_SPOpEGNbEeWnVf-kUifj5A" association="_SP_eEGNbEeWnVf-kUifj5A">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_SP5XcGNbEeWnVf-kUifj5A" value="new EllipseShapeFactory()"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_SPtKMWNbEeWnVf-kUifj5A" client="_SPJJgGNbEeWnVf-kUifj5A" supplier="_SPOpEGNbEeWnVf-kUifj5A" contract="_SPOpEGNbEeWnVf-kUifj5A"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SP8awGNbEeWnVf-kUifj5A" name="makeShape" specification="_SPJwkGNbEeWnVf-kUifj5A">
+          <ownedParameter xmi:id="_SP8awWNbEeWnVf-kUifj5A" name="x">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP8awmNbEeWnVf-kUifj5A" name="y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP8aw2NbEeWnVf-kUifj5A" name="width">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP8axGNbEeWnVf-kUifj5A" name="height">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP8axWNbEeWnVf-kUifj5A" type="_SPr8EGNbEeWnVf-kUifj5A" direction="return"/>
+          <language>java</language>
+          <body>return new Ellipse2D.Double(x - width / 2, y - height / 2, width, height);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_SPJwkGNbEeWnVf-kUifj5A" name="makeShape" method="_SP8awGNbEeWnVf-kUifj5A">
+          <ownedParameter xmi:id="_SPKXoGNbEeWnVf-kUifj5A" name="x">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SPKXoWNbEeWnVf-kUifj5A" name="y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SPKXomNbEeWnVf-kUifj5A" name="width">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SPKXo2NbEeWnVf-kUifj5A" name="height">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP1GAGNbEeWnVf-kUifj5A" type="_SPr8EGNbEeWnVf-kUifj5A" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_SPK-sGNbEeWnVf-kUifj5A" name="Fish1PolygonFactory">
+        <ownedComment xmi:id="_SP9o4WNbEeWnVf-kUifj5A">
+          <body>@author johnking
+ *	A factory that produces a polygon for the shape</body>
+        </ownedComment>
+        <generalization xmi:id="_SPwNgGNbEeWnVf-kUifj5A" general="_SPQeQGNbEeWnVf-kUifj5A"/>
+        <ownedAttribute xmi:id="_SP5-gGNbEeWnVf-kUifj5A" name="Singleton" isStatic="true" type="_SPOpEGNbEeWnVf-kUifj5A" association="_SQAFIWNbEeWnVf-kUifj5A">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_SP5-gWNbEeWnVf-kUifj5A" value="new Fish1PolygonFactory()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SP8axmNbEeWnVf-kUifj5A" name="Fish1PolygonFactory" specification="_SPLlwGNbEeWnVf-kUifj5A">
+          <ownedParameter xmi:id="_SP8ax2NbEeWnVf-kUifj5A" type="_SPK-sGNbEeWnVf-kUifj5A" direction="return"/>
+          <language>java</language>
+          <body>this(new AffineTransform(), 1.0, new Point(-5, -4), new Point(-3, -1), new Point(-2, -3), new Point(0, -4), new Point(0, -6),
+				new Point(2, -4), new Point(4, -3), new Point(5, -1), new Point(4, 0), new Point(5, 1), new Point(4, 3), new Point(2, 4),
+				new Point(0, 4), new Point(-2, 3), new Point(-3, 1), new Point(-5, 4));
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SP8ayGNbEeWnVf-kUifj5A" name="Fish1PolygonFactory" specification="_SP1tEGNbEeWnVf-kUifj5A">
+          <ownedParameter xmi:id="_SP8ayWNbEeWnVf-kUifj5A" name="at" type="_SPu_YWNbEeWnVf-kUifj5A"/>
+          <ownedParameter xmi:id="_SP8aymNbEeWnVf-kUifj5A" name="scaleFactor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP8ay2NbEeWnVf-kUifj5A" name="pts" type="_SPuYUGNbEeWnVf-kUifj5A">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SP8azGNbEeWnVf-kUifj5A" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP8azWNbEeWnVf-kUifj5A" type="_SPK-sGNbEeWnVf-kUifj5A" direction="return"/>
+          <language>java</language>
+          <body>super(at, scaleFactor, pts);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_SPLlwGNbEeWnVf-kUifj5A" name="Fish1PolygonFactory" method="_SP8axmNbEeWnVf-kUifj5A">
+          <eAnnotations xmi:id="_SPLlwWNbEeWnVf-kUifj5A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_SPLlwmNbEeWnVf-kUifj5A" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_SPLlw2NbEeWnVf-kUifj5A" type="_SPK-sGNbEeWnVf-kUifj5A" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_SP1tEGNbEeWnVf-kUifj5A" name="Fish1PolygonFactory" method="_SP8ayGNbEeWnVf-kUifj5A">
+          <eAnnotations xmi:id="_SP1tFGNbEeWnVf-kUifj5A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_SP1tFWNbEeWnVf-kUifj5A" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_SP1tEWNbEeWnVf-kUifj5A" name="at" type="_SPu_YWNbEeWnVf-kUifj5A"/>
+          <ownedParameter xmi:id="_SP1tEmNbEeWnVf-kUifj5A" name="scaleFactor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP1tE2NbEeWnVf-kUifj5A" name="pts" type="_SPuYUGNbEeWnVf-kUifj5A">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SP2UIGNbEeWnVf-kUifj5A" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP1tF2NbEeWnVf-kUifj5A" type="_SPK-sGNbEeWnVf-kUifj5A" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_SPOpEGNbEeWnVf-kUifj5A" name="IShapeFactory">
+        <ownedComment xmi:id="_SP-P8GNbEeWnVf-kUifj5A">
+          <body>Encapsulate and hide the construction details of the shape prototypes to produce
+Shape objects fast and easily.</body>
+        </ownedComment>
+        <ownedOperation xmi:id="_SPPQIGNbEeWnVf-kUifj5A" name="makeShape">
+          <ownedParameter xmi:id="_SPPQIWNbEeWnVf-kUifj5A" name="x">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SPP3MGNbEeWnVf-kUifj5A" name="y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SPP3MWNbEeWnVf-kUifj5A" name="xScale">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SPP3MmNbEeWnVf-kUifj5A" name="yScale">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP2UImNbEeWnVf-kUifj5A" type="_SPr8EGNbEeWnVf-kUifj5A" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_SPQeQGNbEeWnVf-kUifj5A" name="PolygonFactory">
+        <ownedComment xmi:id="_SP-P8WNbEeWnVf-kUifj5A">
+          <body>@author johnking
+ *	A factory that produces polygons</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_SP6lkGNbEeWnVf-kUifj5A" name="at" visibility="private" type="_SPu_YWNbEeWnVf-kUifj5A" association="_SQAsMWNbEeWnVf-kUifj5A"/>
+        <ownedAttribute xmi:id="_SP6lkmNbEeWnVf-kUifj5A" name="scaleFactor" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_SP7MoWNbEeWnVf-kUifj5A" name="poly" visibility="private" type="_SPw0kGNbEeWnVf-kUifj5A" association="_SQBTQWNbEeWnVf-kUifj5A"/>
+        <interfaceRealization xmi:id="_SPxboWNbEeWnVf-kUifj5A" client="_SPQeQGNbEeWnVf-kUifj5A" supplier="_SPOpEGNbEeWnVf-kUifj5A" contract="_SPOpEGNbEeWnVf-kUifj5A"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SP9B0GNbEeWnVf-kUifj5A" name="PolygonFactory" specification="_SP27MGNbEeWnVf-kUifj5A">
+          <ownedParameter xmi:id="_SP9B0WNbEeWnVf-kUifj5A" name="at" type="_SPu_YWNbEeWnVf-kUifj5A"/>
+          <ownedParameter xmi:id="_SP9B0mNbEeWnVf-kUifj5A" name="scaleFactor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP9B02NbEeWnVf-kUifj5A" name="pts" type="_SPuYUGNbEeWnVf-kUifj5A">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SP9B1GNbEeWnVf-kUifj5A" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP9B1WNbEeWnVf-kUifj5A" type="_SPQeQGNbEeWnVf-kUifj5A" direction="return"/>
+          <language>java</language>
+          <body>this.at = at;
+		this.scaleFactor = scaleFactor;
+		poly = new Polygon();
+		for (Point pt : pts) {
+			poly.addPoint(pt.x, pt.y);
+		}
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SP9B1mNbEeWnVf-kUifj5A" name="makeShape" specification="_SPRsYGNbEeWnVf-kUifj5A">
+          <ownedParameter xmi:id="_SP9B12NbEeWnVf-kUifj5A" name="x">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP9B2GNbEeWnVf-kUifj5A" name="y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP9B2WNbEeWnVf-kUifj5A" name="xScale">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP9B2mNbEeWnVf-kUifj5A" name="yScale">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP9B22NbEeWnVf-kUifj5A" type="_SPr8EGNbEeWnVf-kUifj5A" direction="return"/>
+          <language>java</language>
+          <body>at.setToTranslation(x, y);
+		at.scale(xScale * scaleFactor, yScale * scaleFactor); // optional rotation can be added as well
+		return at.createTransformedShape(poly);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_SPRsYGNbEeWnVf-kUifj5A" name="makeShape" method="_SP9B1mNbEeWnVf-kUifj5A">
+          <ownedParameter xmi:id="_SPRsYWNbEeWnVf-kUifj5A" name="x">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SPRsYmNbEeWnVf-kUifj5A" name="y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SPRsY2NbEeWnVf-kUifj5A" name="xScale">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SPRsZGNbEeWnVf-kUifj5A" name="yScale">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP4JUGNbEeWnVf-kUifj5A" type="_SPr8EGNbEeWnVf-kUifj5A" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_SP27MGNbEeWnVf-kUifj5A" name="PolygonFactory" method="_SP9B0GNbEeWnVf-kUifj5A">
+          <eAnnotations xmi:id="_SP3iQGNbEeWnVf-kUifj5A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_SP3iQWNbEeWnVf-kUifj5A" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_SP27MWNbEeWnVf-kUifj5A" name="at" type="_SPu_YWNbEeWnVf-kUifj5A"/>
+          <ownedParameter xmi:id="_SP27MmNbEeWnVf-kUifj5A" name="scaleFactor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP27M2NbEeWnVf-kUifj5A" name="pts" type="_SPuYUGNbEeWnVf-kUifj5A">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SP3iRGNbEeWnVf-kUifj5A" value="*"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP3iQ2NbEeWnVf-kUifj5A" type="_SPQeQGNbEeWnVf-kUifj5A" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_SPUvsGNbEeWnVf-kUifj5A" name="RectangleShapeFactory">
+        <ownedComment xmi:id="_SP-P8mNbEeWnVf-kUifj5A">
+          <body>@author johnking
+ *	A factory that produces Rectangle2D</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_SP7Mo2NbEeWnVf-kUifj5A" name="Singleton" isStatic="true" type="_SPUvsGNbEeWnVf-kUifj5A" association="_SQBTRGNbEeWnVf-kUifj5A">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_SP7zsGNbEeWnVf-kUifj5A" value="new RectangleShapeFactory()"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_SPzQ0WNbEeWnVf-kUifj5A" client="_SPUvsGNbEeWnVf-kUifj5A" supplier="_SPOpEGNbEeWnVf-kUifj5A" contract="_SPOpEGNbEeWnVf-kUifj5A"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_SP9B3GNbEeWnVf-kUifj5A" name="makeShape" specification="_SPVWwGNbEeWnVf-kUifj5A">
+          <ownedParameter xmi:id="_SP9B3WNbEeWnVf-kUifj5A" name="x">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP9B3mNbEeWnVf-kUifj5A" name="y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP9B32NbEeWnVf-kUifj5A" name="width">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP9B4GNbEeWnVf-kUifj5A" name="height">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP9B4WNbEeWnVf-kUifj5A" type="_SPr8EGNbEeWnVf-kUifj5A" direction="return"/>
+          <language>java</language>
+          <body>return new Rectangle2D.Double(x - width / 2, y - height / 2, width, height);
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_SPVWwGNbEeWnVf-kUifj5A" name="makeShape" method="_SP9B3GNbEeWnVf-kUifj5A">
+          <ownedParameter xmi:id="_SPVWwWNbEeWnVf-kUifj5A" name="x">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SPVWwmNbEeWnVf-kUifj5A" name="y">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SPVWw2NbEeWnVf-kUifj5A" name="width">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SPV90GNbEeWnVf-kUifj5A" name="height">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_SP4JUWNbEeWnVf-kUifj5A" type="_SPr8EGNbEeWnVf-kUifj5A" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_SP_eEGNbEeWnVf-kUifj5A" name="" memberEnd="_SP_eEWNbEeWnVf-kUifj5A _SP4wYGNbEeWnVf-kUifj5A">
+        <ownedEnd xmi:id="_SP_eEWNbEeWnVf-kUifj5A" name="" type="_SPJJgGNbEeWnVf-kUifj5A" association="_SP_eEGNbEeWnVf-kUifj5A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_SQAFIWNbEeWnVf-kUifj5A" name="" memberEnd="_SQAFImNbEeWnVf-kUifj5A _SP5-gGNbEeWnVf-kUifj5A">
+        <ownedEnd xmi:id="_SQAFImNbEeWnVf-kUifj5A" name="" type="_SPK-sGNbEeWnVf-kUifj5A" association="_SQAFIWNbEeWnVf-kUifj5A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_SQAsMWNbEeWnVf-kUifj5A" name="" memberEnd="_SQAsMmNbEeWnVf-kUifj5A _SP6lkGNbEeWnVf-kUifj5A">
+        <ownedEnd xmi:id="_SQAsMmNbEeWnVf-kUifj5A" name="" type="_SPQeQGNbEeWnVf-kUifj5A" association="_SQAsMWNbEeWnVf-kUifj5A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_SQBTQWNbEeWnVf-kUifj5A" name="" memberEnd="_SQBTQmNbEeWnVf-kUifj5A _SP7MoWNbEeWnVf-kUifj5A">
+        <ownedEnd xmi:id="_SQBTQmNbEeWnVf-kUifj5A" name="" type="_SPQeQGNbEeWnVf-kUifj5A" association="_SQBTQWNbEeWnVf-kUifj5A"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_SQBTRGNbEeWnVf-kUifj5A" name="" memberEnd="_SQB6UGNbEeWnVf-kUifj5A _SP7Mo2NbEeWnVf-kUifj5A">
+        <ownedEnd xmi:id="_SQB6UGNbEeWnVf-kUifj5A" name="" type="_SPUvsGNbEeWnVf-kUifj5A" association="_SQBTRGNbEeWnVf-kUifj5A"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_SJsBw2NbEeWnVf-kUifj5A">
+      <eAnnotations xmi:id="_SJso0GNbEeWnVf-kUifj5A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_SJso0WNbEeWnVf-kUifj5A" base_Package="_SABvcGNbEeWnVf-kUifj5A">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SPSTcGNbEeWnVf-kUifj5A" base_Element="_SPRsYGNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:Annotations xmi:id="_SPS6gGNbEeWnVf-kUifj5A" base_Element="_SPRsYGNbEeWnVf-kUifj5A">
+    <annotations xmi:id="_SPS6gWNbEeWnVf-kUifj5A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SPV90WNbEeWnVf-kUifj5A" base_Element="_SPVWwGNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:Annotations xmi:id="_SPWk4GNbEeWnVf-kUifj5A" base_Element="_SPVWwGNbEeWnVf-kUifj5A">
+    <annotations xmi:id="_SPWk4WNbEeWnVf-kUifj5A" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_SPsjIGNbEeWnVf-kUifj5A" base_Element="_SPr8EGNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:Reference xmi:id="_SPtKMGNbEeWnVf-kUifj5A" base_Element="_SPsjIWNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:Reference xmi:id="_SPu_YGNbEeWnVf-kUifj5A" base_Element="_SPuYUGNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:Reference xmi:id="_SPvmcGNbEeWnVf-kUifj5A" base_Element="_SPu_YWNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:Reference xmi:id="_SPxboGNbEeWnVf-kUifj5A" base_Element="_SPw0kGNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:Reference xmi:id="_SPzQ0GNbEeWnVf-kUifj5A" base_Element="_SPypwGNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SP1tFmNbEeWnVf-kUifj5A" base_Element="_SP1tEGNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:Array xmi:id="_SP2UIWNbEeWnVf-kUifj5A" base_Element="_SP1tE2NbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SP3iQmNbEeWnVf-kUifj5A" base_Element="_SP27MGNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:Array xmi:id="_SP3iRWNbEeWnVf-kUifj5A" base_Element="_SP27M2NbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SP5XcWNbEeWnVf-kUifj5A" base_Element="_SP4wYGNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SP5-gmNbEeWnVf-kUifj5A" base_Element="_SP5-gGNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SP6lkWNbEeWnVf-kUifj5A" base_Element="_SP6lkGNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SP7MoGNbEeWnVf-kUifj5A" base_Element="_SP6lkmNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SP7MomNbEeWnVf-kUifj5A" base_Element="_SP7MoWNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_SP7zsWNbEeWnVf-kUifj5A" base_Element="_SP7Mo2NbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:Reference xmi:id="_SQAFIGNbEeWnVf-kUifj5A" base_Element="_SP_eEGNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:Reference xmi:id="_SQAsMGNbEeWnVf-kUifj5A" base_Element="_SQAFIWNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:Reference xmi:id="_SQBTQGNbEeWnVf-kUifj5A" base_Element="_SQAsMWNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:Reference xmi:id="_SQBTQ2NbEeWnVf-kUifj5A" base_Element="_SQBTQWNbEeWnVf-kUifj5A"/>
+  <UMLLabProfile:Reference xmi:id="_SQB6UWNbEeWnVf-kUifj5A" base_Element="_SQBTRGNbEeWnVf-kUifj5A"/>
+</xmi:XMI>

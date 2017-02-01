@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_SA9jkGNbEeWnVf-kUifj5A">
+  <modelElement href="ShapeFactory.uml#_SO_YgGNbEeWnVf-kUifj5A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SWIiUGNbEeWnVf-kUifj5A" targetItem="_SWK-kWNbEeWnVf-kUifj5A" sourceItem="_SWH7QGNbEeWnVf-kUifj5A"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SWJwcWNbEeWnVf-kUifj5A" targetItem="_SWRsQGNbEeWnVf-kUifj5A" sourceItem="_SWJwcGNbEeWnVf-kUifj5A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_SWJwcmNbEeWnVf-kUifj5A" sourceAnchor="468.0,25.0" targetAnchor="269.0,64.0" dashed="true" superClass="_SWRsQGNbEeWnVf-kUifj5A" subClass="_SWK-kWNbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SPtKMWNbEeWnVf-kUifj5A"/>
+    <bendpoints xmi:id="_Sju5cmNbEeWnVf-kUifj5A" sourceX="60" targetX="869" targetY="402"/>
+    <bendpoints xmi:id="_Sju5c2NbEeWnVf-kUifj5A" sourceX="60" sourceY="-338" targetX="869" targetY="64"/>
+    <bendpoints xmi:id="_Sju5dGNbEeWnVf-kUifj5A" sourceX="-809" sourceY="-338" targetY="64"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SWJwc2NbEeWnVf-kUifj5A" sourceAnchor="234.0,0.0" targetAnchor="239.0,64.0" target="_SWRsQGNbEeWnVf-kUifj5A" source="_SWK-kWNbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SP_eEGNbEeWnVf-kUifj5A"/>
+    <bendpoints xmi:id="_Sju5cGNbEeWnVf-kUifj5A" sourceY="-45" targetX="605" targetY="332"/>
+    <bendpoints xmi:id="_Sju5cWNbEeWnVf-kUifj5A" sourceX="-605" sourceY="-45" targetY="332"/>
+    <stereotypes xmi:id="_SWKXg2NbEeWnVf-kUifj5A" name="Reference">
+      <modelElement href="ShapeFactory.uml#_SQAFIGNbEeWnVf-kUifj5A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SWKXgGNbEeWnVf-kUifj5A" text="">
+      <visualProperties xmi:id="_SjwuoGNbEeWnVf-kUifj5A" position="473.0,8.000000000000021"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SWKXgWNbEeWnVf-kUifj5A" aggregationKind="NONE" name="">
+      <modelElement href="ShapeFactory.uml#_SP_eEWNbEeWnVf-kUifj5A"/>
+      <visualProperties xmi:id="_SjwHlGNbEeWnVf-kUifj5A" position="3.0,-65.0"/>
+      <visibility xmi:id="_SWKXhWNbEeWnVf-kUifj5A" label="+"/>
+      <cardinality xmi:id="_SWKXhGNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SWKXgmNbEeWnVf-kUifj5A" aggregationKind="NONE" name="Singleton" navigable="true">
+      <modelElement href="ShapeFactory.uml#_SP4wYGNbEeWnVf-kUifj5A"/>
+      <visualProperties xmi:id="_SjwuoWNbEeWnVf-kUifj5A" position="743.0,401.0"/>
+      <visibility xmi:id="_SWKXh2NbEeWnVf-kUifj5A" label="+"/>
+      <cardinality xmi:id="_SWKXhmNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SWNa0GNbEeWnVf-kUifj5A" sourceAnchor="308.0,0.0" targetAnchor="78.0,64.0" target="_SWRsQGNbEeWnVf-kUifj5A" source="_SWPQAGNbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SQAFIWNbEeWnVf-kUifj5A"/>
+    <stereotypes xmi:id="_SWOB42NbEeWnVf-kUifj5A" name="Reference">
+      <modelElement href="ShapeFactory.uml#_SQAsMGNbEeWnVf-kUifj5A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SWOB4GNbEeWnVf-kUifj5A" text="">
+      <visualProperties xmi:id="_Sjx8wGNbEeWnVf-kUifj5A" position="-22.59999999999991,183.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SWOB4WNbEeWnVf-kUifj5A" aggregationKind="NONE" name="">
+      <modelElement href="ShapeFactory.uml#_SQAFImNbEeWnVf-kUifj5A"/>
+      <visualProperties xmi:id="_SjxVsGNbEeWnVf-kUifj5A" position="2.400000000000091,-65.0"/>
+      <visibility xmi:id="_SWOo8WNbEeWnVf-kUifj5A" label="+"/>
+      <cardinality xmi:id="_SWOo8GNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SWOB4mNbEeWnVf-kUifj5A" aggregationKind="NONE" name="Singleton" navigable="true">
+      <modelElement href="ShapeFactory.uml#_SP5-gGNbEeWnVf-kUifj5A"/>
+      <visualProperties xmi:id="_Sjx8wWNbEeWnVf-kUifj5A" position="53.40000000000009,415.0"/>
+      <visibility xmi:id="_SWOo82NbEeWnVf-kUifj5A" label="+"/>
+      <cardinality xmi:id="_SWOo8mNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SWNa0mNbEeWnVf-kUifj5A" targetItem="_SWPQAGNbEeWnVf-kUifj5A" sourceItem="_SWNa0WNbEeWnVf-kUifj5A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_SWUvkGNbEeWnVf-kUifj5A" sourceAnchor="279.0,0.0" targetAnchor="269.0,64.0" dashed="true" superClass="_SWRsQGNbEeWnVf-kUifj5A" subClass="_SWYZ-WNbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SPxboWNbEeWnVf-kUifj5A"/>
+    <bendpoints xmi:id="_SjvggmNbEeWnVf-kUifj5A" sourceY="-122" targetX="575" targetY="64"/>
+    <bendpoints xmi:id="_Sjvgg2NbEeWnVf-kUifj5A" sourceX="-575" sourceY="-122" targetY="64"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SWUvkmNbEeWnVf-kUifj5A" targetItem="_SWYZ-WNbEeWnVf-kUifj5A" sourceItem="_SWUvkWNbEeWnVf-kUifj5A"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_SWUvk2NbEeWnVf-kUifj5A" sourceAnchor="308.0,66.0" targetAnchor="528.0,121.0" superClass="_SWYZ-WNbEeWnVf-kUifj5A" subClass="_SWPQAGNbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SPwNgGNbEeWnVf-kUifj5A"/>
+    <bendpoints xmi:id="_SjvggGNbEeWnVf-kUifj5A" sourceY="182" targetX="-1015" targetY="303"/>
+    <bendpoints xmi:id="_SjvggWNbEeWnVf-kUifj5A" sourceX="1015" sourceY="182" targetY="303"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SWVWoGNbEeWnVf-kUifj5A" source="_SWYZ-WNbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SQAsMWNbEeWnVf-kUifj5A"/>
+    <stereotypes xmi:id="_SWXL02NbEeWnVf-kUifj5A" name="Reference">
+      <modelElement href="ShapeFactory.uml#_SQBTQGNbEeWnVf-kUifj5A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SWXL0GNbEeWnVf-kUifj5A" text=""/>
+    <sourceRole xmi:id="_SWXL0WNbEeWnVf-kUifj5A" aggregationKind="NONE" name="">
+      <modelElement href="ShapeFactory.uml#_SQAsMmNbEeWnVf-kUifj5A"/>
+      <visibility xmi:id="_SWXy4GNbEeWnVf-kUifj5A" label="+"/>
+      <cardinality xmi:id="_SWXL1GNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SWXL0mNbEeWnVf-kUifj5A" aggregationKind="NONE" name="at" navigable="true">
+      <modelElement href="ShapeFactory.uml#_SP6lkGNbEeWnVf-kUifj5A"/>
+      <visibility xmi:id="_SWXy4mNbEeWnVf-kUifj5A" label="-"/>
+      <cardinality xmi:id="_SWXy4WNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SWYZ8GNbEeWnVf-kUifj5A" source="_SWYZ-WNbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SQBTQWNbEeWnVf-kUifj5A"/>
+    <stereotypes xmi:id="_SWYZ8WNbEeWnVf-kUifj5A" name="Reference">
+      <modelElement href="ShapeFactory.uml#_SQBTQ2NbEeWnVf-kUifj5A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SWYZ8mNbEeWnVf-kUifj5A" text=""/>
+    <sourceRole xmi:id="_SWYZ82NbEeWnVf-kUifj5A" aggregationKind="NONE" name="">
+      <modelElement href="ShapeFactory.uml#_SQBTQmNbEeWnVf-kUifj5A"/>
+      <visibility xmi:id="_SWYZ9GNbEeWnVf-kUifj5A" label="+"/>
+      <cardinality xmi:id="_SWYZ9WNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SWYZ9mNbEeWnVf-kUifj5A" aggregationKind="NONE" name="poly" navigable="true">
+      <modelElement href="ShapeFactory.uml#_SP7MoWNbEeWnVf-kUifj5A"/>
+      <visibility xmi:id="_SWYZ92NbEeWnVf-kUifj5A" label="-"/>
+      <cardinality xmi:id="_SWYZ-GNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_SWbdQGNbEeWnVf-kUifj5A" sourceAnchor="246.0,0.0" targetAnchor="0.0,25.0" target="_SWdSdWNbEeWnVf-kUifj5A" source="_SWdSdWNbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SQBTRGNbEeWnVf-kUifj5A"/>
+    <bendpoints xmi:id="_SjvghGNbEeWnVf-kUifj5A" sourceY="-92" targetX="246" targetY="-117"/>
+    <bendpoints xmi:id="_SjvghWNbEeWnVf-kUifj5A" sourceX="-351" sourceY="-92" targetX="-105" targetY="-117"/>
+    <bendpoints xmi:id="_SjvghmNbEeWnVf-kUifj5A" sourceX="-351" sourceY="25" targetX="-105"/>
+    <stereotypes xmi:id="_SWcrY2NbEeWnVf-kUifj5A" name="Reference">
+      <modelElement href="ShapeFactory.uml#_SQB6UWNbEeWnVf-kUifj5A"/>
+    </stereotypes>
+    <nameVisual xmi:id="_SWcrYGNbEeWnVf-kUifj5A" text="">
+      <visualProperties xmi:id="_Sjyj0WNbEeWnVf-kUifj5A" position="292.29999999999995,-7.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_SWcrYWNbEeWnVf-kUifj5A" aggregationKind="NONE" name="">
+      <modelElement href="ShapeFactory.uml#_SQB6UGNbEeWnVf-kUifj5A"/>
+      <visualProperties xmi:id="_Sjyj0GNbEeWnVf-kUifj5A" position="-20.700000000000045,-46.0"/>
+      <visibility xmi:id="_SWdScWNbEeWnVf-kUifj5A" label="+"/>
+      <cardinality xmi:id="_SWdScGNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_SWcrYmNbEeWnVf-kUifj5A" aggregationKind="NONE" name="Singleton" navigable="true">
+      <modelElement href="ShapeFactory.uml#_SP7Mo2NbEeWnVf-kUifj5A"/>
+      <visualProperties xmi:id="_SjzK4GNbEeWnVf-kUifj5A" position="-70.70000000000005,5.499999999999943"/>
+      <visibility xmi:id="_SWdSc2NbEeWnVf-kUifj5A" label="+"/>
+      <cardinality xmi:id="_SWdScmNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_SWbdQWNbEeWnVf-kUifj5A" sourceAnchor="276.0,0.0" targetAnchor="269.0,64.0" dashed="true" superClass="_SWRsQGNbEeWnVf-kUifj5A" subClass="_SWdSdWNbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SPzQ0WNbEeWnVf-kUifj5A"/>
+    <bendpoints xmi:id="_SjwHkGNbEeWnVf-kUifj5A" sourceY="-173" targetX="-576" targetY="-79"/>
+    <bendpoints xmi:id="_SjwHkWNbEeWnVf-kUifj5A" sourceX="887" sourceY="-173" targetX="311" targetY="-79"/>
+    <bendpoints xmi:id="_SjwHkmNbEeWnVf-kUifj5A" sourceX="887" sourceY="-30" targetX="311" targetY="64"/>
+    <bendpoints xmi:id="_SjwHk2NbEeWnVf-kUifj5A" sourceX="576" sourceY="-30" targetY="64"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_SWbdQ2NbEeWnVf-kUifj5A" targetItem="_SWdSdWNbEeWnVf-kUifj5A" sourceItem="_SWbdQmNbEeWnVf-kUifj5A"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SWH7QGNbEeWnVf-kUifj5A" sourceConnectionVisual="_SWIiUGNbEeWnVf-kUifj5A" text="@author johnking&#xA; *&#x9;A factory that produces an Ellipse!" item="_SWK-kWNbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SP9o4GNbEeWnVf-kUifj5A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SWJwcGNbEeWnVf-kUifj5A" sourceConnectionVisual="_SWJwcWNbEeWnVf-kUifj5A" text="Encapsulate and hide the construction details of the shape prototypes to produce&#xA;Shape objects fast and easily." item="_SWRsQGNbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SP-P8GNbEeWnVf-kUifj5A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SWNa0WNbEeWnVf-kUifj5A" sourceConnectionVisual="_SWNa0mNbEeWnVf-kUifj5A" text="@author johnking&#xA; *&#x9;A factory that produces a polygon for the shape" item="_SWPQAGNbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SP9o4WNbEeWnVf-kUifj5A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SWUvkWNbEeWnVf-kUifj5A" sourceConnectionVisual="_SWUvkmNbEeWnVf-kUifj5A" text="@author johnking&#xA; *&#x9;A factory that produces polygons" item="_SWYZ-WNbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SP-P8WNbEeWnVf-kUifj5A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_SWbdQmNbEeWnVf-kUifj5A" sourceConnectionVisual="_SWbdQ2NbEeWnVf-kUifj5A" text="@author johnking&#xA; *&#x9;A factory that produces Rectangle2D" item="_SWdSdWNbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SP-P8mNbEeWnVf-kUifj5A"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SWK-kWNbEeWnVf-kUifj5A" comments="_SWH7QGNbEeWnVf-kUifj5A" targetConnectionVisual="_SWIiUGNbEeWnVf-kUifj5A" name="EllipseShapeFactory" associationsOut="_SWJwc2NbEeWnVf-kUifj5A" generalizations="_SWJwcmNbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SPJJgGNbEeWnVf-kUifj5A"/>
+    <visualProperties xmi:id="_SWK-kmNbEeWnVf-kUifj5A" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_SWK-k2NbEeWnVf-kUifj5A" label="+"/>
+    <attributes xmi:id="_SWK-lGNbEeWnVf-kUifj5A" defaultValue="new EllipseShapeFactory()" name="Singleton" staticAttribute="true">
+      <modelElement href="ShapeFactory.uml#_SP4wYGNbEeWnVf-kUifj5A"/>
+      <stereotypes xmi:id="_SWK-lWNbEeWnVf-kUifj5A" name="LegacyStyledElement">
+        <modelElement href="ShapeFactory.uml#_SP5XcWNbEeWnVf-kUifj5A"/>
+      </stereotypes>
+      <visibility xmi:id="_SWK-lmNbEeWnVf-kUifj5A" label="+"/>
+      <cardinality xmi:id="_SWK-l2NbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+      <type xmi:id="_SWK-mGNbEeWnVf-kUifj5A" name="IShapeFactory">
+        <modelElement href="ShapeFactory.uml#_SPOpEGNbEeWnVf-kUifj5A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SWK-mWNbEeWnVf-kUifj5A" name="makeShape">
+      <modelElement href="ShapeFactory.uml#_SPJwkGNbEeWnVf-kUifj5A"/>
+      <visibility xmi:id="_SWK-mmNbEeWnVf-kUifj5A" label="+"/>
+      <cardinality xmi:id="_SWK-m2NbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SWK-nGNbEeWnVf-kUifj5A">
+        <modelElement href="ShapeFactory.uml#_SP1GAGNbEeWnVf-kUifj5A"/>
+        <type xmi:id="_SWK-nWNbEeWnVf-kUifj5A" name="Shape">
+          <modelElement href="ShapeFactory.uml#_SPr8EGNbEeWnVf-kUifj5A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SWK-nmNbEeWnVf-kUifj5A" name="x">
+        <modelElement href="ShapeFactory.uml#_SPKXoGNbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWK-n2NbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWK-oGNbEeWnVf-kUifj5A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SWK-oWNbEeWnVf-kUifj5A" name="y">
+        <modelElement href="ShapeFactory.uml#_SPKXoWNbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWK-omNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWK-o2NbEeWnVf-kUifj5A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SWK-pGNbEeWnVf-kUifj5A" name="width">
+        <modelElement href="ShapeFactory.uml#_SPKXomNbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWK-pWNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWK-pmNbEeWnVf-kUifj5A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SWK-p2NbEeWnVf-kUifj5A" name="height">
+        <modelElement href="ShapeFactory.uml#_SPKXo2NbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWK-qGNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWK-qWNbEeWnVf-kUifj5A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SWPQAGNbEeWnVf-kUifj5A" comments="_SWNa0WNbEeWnVf-kUifj5A" targetConnectionVisual="_SWNa0mNbEeWnVf-kUifj5A" name="Fish1PolygonFactory" associationsOut="_SWNa0GNbEeWnVf-kUifj5A" generalizations="_SWUvk2NbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SPK-sGNbEeWnVf-kUifj5A"/>
+    <visualProperties xmi:id="_SWPQAWNbEeWnVf-kUifj5A" position="-810.0,15.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_SWPQAmNbEeWnVf-kUifj5A" label="+"/>
+    <attributes xmi:id="_SWPQA2NbEeWnVf-kUifj5A" defaultValue="new Fish1PolygonFactory()" name="Singleton" staticAttribute="true">
+      <modelElement href="ShapeFactory.uml#_SP5-gGNbEeWnVf-kUifj5A"/>
+      <stereotypes xmi:id="_SWPQBGNbEeWnVf-kUifj5A" name="LegacyStyledElement">
+        <modelElement href="ShapeFactory.uml#_SP5-gmNbEeWnVf-kUifj5A"/>
+      </stereotypes>
+      <visibility xmi:id="_SWPQBWNbEeWnVf-kUifj5A" label="+"/>
+      <cardinality xmi:id="_SWPQBmNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+      <type xmi:id="_SWPQB2NbEeWnVf-kUifj5A" name="IShapeFactory">
+        <modelElement href="ShapeFactory.uml#_SPOpEGNbEeWnVf-kUifj5A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SWPQCGNbEeWnVf-kUifj5A" name="Fish1PolygonFactory">
+      <modelElement href="ShapeFactory.uml#_SPLlwGNbEeWnVf-kUifj5A"/>
+      <keywords xmi:id="_SWPQCWNbEeWnVf-kUifj5A" keyword="create"/>
+      <visibility xmi:id="_SWPQCmNbEeWnVf-kUifj5A" label="+"/>
+      <cardinality xmi:id="_SWPQC2NbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SWPQDGNbEeWnVf-kUifj5A">
+        <modelElement href="ShapeFactory.uml#_SPLlw2NbEeWnVf-kUifj5A"/>
+        <type xmi:id="_SWPQDWNbEeWnVf-kUifj5A" name="Fish1PolygonFactory">
+          <modelElement href="ShapeFactory.uml#_SPK-sGNbEeWnVf-kUifj5A"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_SWPQDmNbEeWnVf-kUifj5A" name="Fish1PolygonFactory">
+      <modelElement href="ShapeFactory.uml#_SP1tEGNbEeWnVf-kUifj5A"/>
+      <keywords xmi:id="_SWPQD2NbEeWnVf-kUifj5A" keyword="create"/>
+      <stereotypes xmi:id="_SWPQEGNbEeWnVf-kUifj5A" name="LegacyStyledElement">
+        <modelElement href="ShapeFactory.uml#_SP1tFmNbEeWnVf-kUifj5A"/>
+      </stereotypes>
+      <visibility xmi:id="_SWPQEWNbEeWnVf-kUifj5A" label="+"/>
+      <cardinality xmi:id="_SWPQEmNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SWPQE2NbEeWnVf-kUifj5A">
+        <modelElement href="ShapeFactory.uml#_SP1tF2NbEeWnVf-kUifj5A"/>
+        <type xmi:id="_SWPQFGNbEeWnVf-kUifj5A" name="Fish1PolygonFactory">
+          <modelElement href="ShapeFactory.uml#_SPK-sGNbEeWnVf-kUifj5A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SWPQFWNbEeWnVf-kUifj5A" name="at">
+        <modelElement href="ShapeFactory.uml#_SP1tEWNbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWPQFmNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWPQF2NbEeWnVf-kUifj5A" name="AffineTransform">
+          <modelElement href="ShapeFactory.uml#_SPu_YWNbEeWnVf-kUifj5A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SWPQGGNbEeWnVf-kUifj5A" name="scaleFactor">
+        <modelElement href="ShapeFactory.uml#_SP1tEmNbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWPQGWNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWPQGmNbEeWnVf-kUifj5A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SWPQG2NbEeWnVf-kUifj5A" name="pts">
+        <modelElement href="ShapeFactory.uml#_SP1tE2NbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWPQHGNbEeWnVf-kUifj5A" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_SWPQHWNbEeWnVf-kUifj5A" name="Point">
+          <modelElement href="ShapeFactory.uml#_SPuYUGNbEeWnVf-kUifj5A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_SWRsQGNbEeWnVf-kUifj5A" comments="_SWJwcGNbEeWnVf-kUifj5A" targetConnectionVisual="_SWJwcWNbEeWnVf-kUifj5A" name="IShapeFactory" associationsIn="_SWJwc2NbEeWnVf-kUifj5A _SWNa0GNbEeWnVf-kUifj5A" subclassedBy="_SWJwcmNbEeWnVf-kUifj5A _SWUvkGNbEeWnVf-kUifj5A _SWbdQWNbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SPOpEGNbEeWnVf-kUifj5A"/>
+    <visualProperties xmi:id="_SWRsQWNbEeWnVf-kUifj5A" position="-580.0,-411.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_SWRsQmNbEeWnVf-kUifj5A" label="+"/>
+    <operations xmi:id="_SWRsQ2NbEeWnVf-kUifj5A" name="makeShape">
+      <modelElement href="ShapeFactory.uml#_SPPQIGNbEeWnVf-kUifj5A"/>
+      <visibility xmi:id="_SWRsRGNbEeWnVf-kUifj5A" label="+"/>
+      <cardinality xmi:id="_SWRsRWNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SWRsRmNbEeWnVf-kUifj5A">
+        <modelElement href="ShapeFactory.uml#_SP2UImNbEeWnVf-kUifj5A"/>
+        <type xmi:id="_SWRsR2NbEeWnVf-kUifj5A" name="Shape">
+          <modelElement href="ShapeFactory.uml#_SPr8EGNbEeWnVf-kUifj5A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SWRsSGNbEeWnVf-kUifj5A" name="x">
+        <modelElement href="ShapeFactory.uml#_SPPQIWNbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWRsSWNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWRsSmNbEeWnVf-kUifj5A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SWRsS2NbEeWnVf-kUifj5A" name="y">
+        <modelElement href="ShapeFactory.uml#_SPP3MGNbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWRsTGNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWRsTWNbEeWnVf-kUifj5A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SWRsTmNbEeWnVf-kUifj5A" name="xScale">
+        <modelElement href="ShapeFactory.uml#_SPP3MWNbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWRsT2NbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWRsUGNbEeWnVf-kUifj5A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SWRsUWNbEeWnVf-kUifj5A" name="yScale">
+        <modelElement href="ShapeFactory.uml#_SPP3MmNbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWRsUmNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWRsU2NbEeWnVf-kUifj5A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SWYZ-WNbEeWnVf-kUifj5A" comments="_SWUvkWNbEeWnVf-kUifj5A" targetConnectionVisual="_SWUvkmNbEeWnVf-kUifj5A" name="PolygonFactory" associationsOut="_SWVWoGNbEeWnVf-kUifj5A _SWYZ8GNbEeWnVf-kUifj5A" generalizations="_SWUvkGNbEeWnVf-kUifj5A" subclassedBy="_SWUvk2NbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SPQeQGNbEeWnVf-kUifj5A"/>
+    <visualProperties xmi:id="_SWYZ-mNbEeWnVf-kUifj5A" position="-15.0,-161.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_SWYZ-2NbEeWnVf-kUifj5A" label="+"/>
+    <attributes xmi:id="_SWYZ_GNbEeWnVf-kUifj5A" name="at">
+      <modelElement href="ShapeFactory.uml#_SP6lkGNbEeWnVf-kUifj5A"/>
+      <stereotypes xmi:id="_SWYZ_WNbEeWnVf-kUifj5A" name="LegacyStyledElement">
+        <modelElement href="ShapeFactory.uml#_SP6lkWNbEeWnVf-kUifj5A"/>
+      </stereotypes>
+      <visibility xmi:id="_SWYZ_mNbEeWnVf-kUifj5A" label="-"/>
+      <cardinality xmi:id="_SWYZ_2NbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+      <type xmi:id="_SWYaAGNbEeWnVf-kUifj5A" name="AffineTransform">
+        <modelElement href="ShapeFactory.uml#_SPu_YWNbEeWnVf-kUifj5A"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SWYaAWNbEeWnVf-kUifj5A" name="scaleFactor">
+      <modelElement href="ShapeFactory.uml#_SP6lkmNbEeWnVf-kUifj5A"/>
+      <stereotypes xmi:id="_SWYaAmNbEeWnVf-kUifj5A" name="LegacyStyledElement">
+        <modelElement href="ShapeFactory.uml#_SP7MoGNbEeWnVf-kUifj5A"/>
+      </stereotypes>
+      <visibility xmi:id="_SWYaA2NbEeWnVf-kUifj5A" label="-"/>
+      <cardinality xmi:id="_SWYaBGNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+      <type xmi:id="_SWYaBWNbEeWnVf-kUifj5A" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_SWYaBmNbEeWnVf-kUifj5A" name="poly">
+      <modelElement href="ShapeFactory.uml#_SP7MoWNbEeWnVf-kUifj5A"/>
+      <stereotypes xmi:id="_SWYaB2NbEeWnVf-kUifj5A" name="LegacyStyledElement">
+        <modelElement href="ShapeFactory.uml#_SP7MomNbEeWnVf-kUifj5A"/>
+      </stereotypes>
+      <visibility xmi:id="_SWYaCGNbEeWnVf-kUifj5A" label="-"/>
+      <cardinality xmi:id="_SWYaCWNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+      <type xmi:id="_SWYaCmNbEeWnVf-kUifj5A" name="Polygon">
+        <modelElement href="ShapeFactory.uml#_SPw0kGNbEeWnVf-kUifj5A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SWYaC2NbEeWnVf-kUifj5A" name="makeShape">
+      <modelElement href="ShapeFactory.uml#_SPRsYGNbEeWnVf-kUifj5A"/>
+      <stereotypes xmi:id="_SWYaDGNbEeWnVf-kUifj5A" name="LegacyStyledElement">
+        <modelElement href="ShapeFactory.uml#_SPSTcGNbEeWnVf-kUifj5A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SWYaDWNbEeWnVf-kUifj5A" name="Annotations">
+        <modelElement href="ShapeFactory.uml#_SPS6gGNbEeWnVf-kUifj5A"/>
+      </stereotypes>
+      <visibility xmi:id="_SWYaDmNbEeWnVf-kUifj5A" label="+"/>
+      <cardinality xmi:id="_SWYaD2NbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SWYaEGNbEeWnVf-kUifj5A">
+        <modelElement href="ShapeFactory.uml#_SP4JUGNbEeWnVf-kUifj5A"/>
+        <type xmi:id="_SWYaEWNbEeWnVf-kUifj5A" name="Shape">
+          <modelElement href="ShapeFactory.uml#_SPr8EGNbEeWnVf-kUifj5A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SWYaEmNbEeWnVf-kUifj5A" name="x">
+        <modelElement href="ShapeFactory.uml#_SPRsYWNbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWYaE2NbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWYaFGNbEeWnVf-kUifj5A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SWYaFWNbEeWnVf-kUifj5A" name="y">
+        <modelElement href="ShapeFactory.uml#_SPRsYmNbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWYaFmNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWYaF2NbEeWnVf-kUifj5A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SWYaGGNbEeWnVf-kUifj5A" name="xScale">
+        <modelElement href="ShapeFactory.uml#_SPRsY2NbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWYaGWNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWYaGmNbEeWnVf-kUifj5A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SWYaG2NbEeWnVf-kUifj5A" name="yScale">
+        <modelElement href="ShapeFactory.uml#_SPRsZGNbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWYaHGNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWYaHWNbEeWnVf-kUifj5A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_SWYaHmNbEeWnVf-kUifj5A" name="PolygonFactory">
+      <modelElement href="ShapeFactory.uml#_SP27MGNbEeWnVf-kUifj5A"/>
+      <keywords xmi:id="_SWYaH2NbEeWnVf-kUifj5A" keyword="create"/>
+      <stereotypes xmi:id="_SWYaIGNbEeWnVf-kUifj5A" name="LegacyStyledElement">
+        <modelElement href="ShapeFactory.uml#_SP3iQmNbEeWnVf-kUifj5A"/>
+      </stereotypes>
+      <visibility xmi:id="_SWYaIWNbEeWnVf-kUifj5A" label="+"/>
+      <cardinality xmi:id="_SWYaImNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SWYaI2NbEeWnVf-kUifj5A">
+        <modelElement href="ShapeFactory.uml#_SP3iQ2NbEeWnVf-kUifj5A"/>
+        <type xmi:id="_SWYaJGNbEeWnVf-kUifj5A" name="PolygonFactory">
+          <modelElement href="ShapeFactory.uml#_SPQeQGNbEeWnVf-kUifj5A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SWYaJWNbEeWnVf-kUifj5A" name="at">
+        <modelElement href="ShapeFactory.uml#_SP27MWNbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWYaJmNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWYaJ2NbEeWnVf-kUifj5A" name="AffineTransform">
+          <modelElement href="ShapeFactory.uml#_SPu_YWNbEeWnVf-kUifj5A"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SWYaKGNbEeWnVf-kUifj5A" name="scaleFactor">
+        <modelElement href="ShapeFactory.uml#_SP27MmNbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWYaKWNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWYaKmNbEeWnVf-kUifj5A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SWYaK2NbEeWnVf-kUifj5A" name="pts">
+        <modelElement href="ShapeFactory.uml#_SP27M2NbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWYaLGNbEeWnVf-kUifj5A" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_SWYaLWNbEeWnVf-kUifj5A" name="Point">
+          <modelElement href="ShapeFactory.uml#_SPuYUGNbEeWnVf-kUifj5A"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_SWdSdWNbEeWnVf-kUifj5A" comments="_SWbdQmNbEeWnVf-kUifj5A" targetConnectionVisual="_SWbdQ2NbEeWnVf-kUifj5A" name="RectangleShapeFactory" associationsIn="_SWbdQGNbEeWnVf-kUifj5A" associationsOut="_SWbdQGNbEeWnVf-kUifj5A" generalizations="_SWbdQWNbEeWnVf-kUifj5A">
+    <modelElement href="ShapeFactory.uml#_SPUvsGNbEeWnVf-kUifj5A"/>
+    <visualProperties xmi:id="_SWdSdmNbEeWnVf-kUifj5A" position="-1163.0,-253.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_SWdSd2NbEeWnVf-kUifj5A" label="+"/>
+    <attributes xmi:id="_SWdSeGNbEeWnVf-kUifj5A" defaultValue="new RectangleShapeFactory()" name="Singleton" staticAttribute="true">
+      <modelElement href="ShapeFactory.uml#_SP7Mo2NbEeWnVf-kUifj5A"/>
+      <stereotypes xmi:id="_SWdSeWNbEeWnVf-kUifj5A" name="LegacyStyledElement">
+        <modelElement href="ShapeFactory.uml#_SP7zsWNbEeWnVf-kUifj5A"/>
+      </stereotypes>
+      <visibility xmi:id="_SWdSemNbEeWnVf-kUifj5A" label="+"/>
+      <cardinality xmi:id="_SWdSe2NbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+      <type xmi:id="_SWdSfGNbEeWnVf-kUifj5A" name="RectangleShapeFactory">
+        <modelElement href="ShapeFactory.uml#_SPUvsGNbEeWnVf-kUifj5A"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_SWdSfWNbEeWnVf-kUifj5A" name="makeShape">
+      <modelElement href="ShapeFactory.uml#_SPVWwGNbEeWnVf-kUifj5A"/>
+      <stereotypes xmi:id="_SWdSfmNbEeWnVf-kUifj5A" name="LegacyStyledElement">
+        <modelElement href="ShapeFactory.uml#_SPV90WNbEeWnVf-kUifj5A"/>
+      </stereotypes>
+      <stereotypes xmi:id="_SWdSf2NbEeWnVf-kUifj5A" name="Annotations">
+        <modelElement href="ShapeFactory.uml#_SPWk4GNbEeWnVf-kUifj5A"/>
+      </stereotypes>
+      <visibility xmi:id="_SWdSgGNbEeWnVf-kUifj5A" label="+"/>
+      <cardinality xmi:id="_SWdSgWNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_SWdSgmNbEeWnVf-kUifj5A">
+        <modelElement href="ShapeFactory.uml#_SP4JUWNbEeWnVf-kUifj5A"/>
+        <type xmi:id="_SWdSg2NbEeWnVf-kUifj5A" name="Shape">
+          <modelElement href="ShapeFactory.uml#_SPr8EGNbEeWnVf-kUifj5A"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_SWdShGNbEeWnVf-kUifj5A" name="x">
+        <modelElement href="ShapeFactory.uml#_SPVWwWNbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWdShWNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWdShmNbEeWnVf-kUifj5A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SWdSh2NbEeWnVf-kUifj5A" name="y">
+        <modelElement href="ShapeFactory.uml#_SPVWwmNbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWd5gGNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWd5gWNbEeWnVf-kUifj5A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SWd5gmNbEeWnVf-kUifj5A" name="width">
+        <modelElement href="ShapeFactory.uml#_SPVWw2NbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWd5g2NbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWd5hGNbEeWnVf-kUifj5A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_SWd5hWNbEeWnVf-kUifj5A" name="height">
+        <modelElement href="ShapeFactory.uml#_SPV90GNbEeWnVf-kUifj5A"/>
+        <cardinality xmi:id="_SWd5hmNbEeWnVf-kUifj5A" label="1" max="1" min="1"/>
+        <type xmi:id="_SWd5h2NbEeWnVf-kUifj5A" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
