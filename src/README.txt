@@ -1,5 +1,3 @@
-HW05 for cmd11 (Clayton Drazner) and yg18 (Julian Gao)
-
 Instructions:
 Run the program.
 Type in the name of an update strategy (or just use the default one) and click to add it to the two drop down lists. 
